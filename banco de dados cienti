@@ -1,0 +1,31 @@
+ create a table
+CREATE TABLE students (
+  id INTEGER PRIMARY KEY,
+  name VARCHAR(30) NOT NULL,
+  gender CHAR(1) NOT NULL
+);
+-- insert some values
+INSERT INTO students VALUES (1, 'Ryan', 'M');
+INSERT INTO students VALUES (2, 'Joanna', 'F');
+-- fetch some values
+SELECT * FROM students WHERE gender = 'F';
+
+
+
+
+create a table
+CREATE TABLE cientifico (
+  ano INT PRIMARY KEY,
+ eventos VARCHAR(30) NOT NULL,
+ localidade VARCHAR(1) NOT NULL
+ descricao VARCHER (255) NOT NULL, 
+);
+-- insert some values
+INSERT INTO cientfico VALUES  (2017, 'primeira fotografia de um buraco', 'Galaxia' 'buraco negro',);
+INSERT INTO cientifico VALUES (2004, 'violento terremoto', 'Indonesia', 'ondas de 30 metros',);
+INSERT INTO cientifico VALUES (2019, 'tratamento ebola', 'Africa', 'surto com letalidade',);
+INSERT INTO cinetifico VALUES (2009, 'descoberta glicina', 'Europeu', 'formacao da vida',);
+INSERT INTO cientifico VALUES (2019, 'pandemia com covid19, 'Brasil,' isolamento,';)
+INSERT INTO cientifico values
+-- fetch some values
+SELECT * FROM students WHERE gender = 'F';
